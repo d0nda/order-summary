@@ -1,0 +1,121 @@
+/* font-family: 'Red Hat Display', sans-serif; */
+
+body {
+  background: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 200px auto 50px;
+  width: 28em;
+  box-sizing: border-box;
+}
+
+.illustration-hero {
+  min-width: 100%;
+  display: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 12px 10px 4px hsl(0, 0%, 81%);
+}
+
+.description {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 0 0 10px 10px;
+  padding: 30px;
+  line-height: 1.5;
+  box-shadow: 0 12px 10px 4px hsl(0, 0%, 81%);
+}
+
+.description > h2 {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  text-align: center;
+}
+
+.description > p {
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+.price-plan {
+  background-color: hsl(225, 73%, 96%);
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.music-icon {
+  margin: auto;
+}
+
+.annual-plan {
+  flex: 1;
+  text-align: center;
+}
+
+.annual-plan-header {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.annual-plan-price {
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+}
+
+.change-plan-link {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  font-size: inherit;
+}
+
+.proceed-to-pay-btn {
+  width: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-size: 16px;
+  padding: 4%;
+  margin: 6% 0 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 12px 10px 1px hsl(0, 0%, 73%);
+}
+
+.proceed-to-pay-btn:hover {
+  opacity: 0.7;
+}
+
+.cancel-order-btn {
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 144px;
+}
